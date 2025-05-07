@@ -1,0 +1,19 @@
+.feedback {
+  background-color: #e8baba;
+  text-align: center;
+  padding: 2rem;
+}
+
+.feedback-grid {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.review-box {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  max-width: 200px;
+}

@@ -1,0 +1,32 @@
+.hero {
+  text-align: center;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;;
+}
+
+.hero-buttons {
+  margin: 1.5rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.start-btn, .vendor-btn {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #b48c8c;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  font-size: 16px;
+  text-align: center;
+
+}
+
+.start-btn:hover, .vendor-btn:hover {
+  background-color: #b57c77; /* Darker shade on hover */
+}

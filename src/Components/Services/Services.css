@@ -1,0 +1,21 @@
+.services {
+  text-align: center;
+  padding: 2rem;
+}
+
+.services h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1.5rem;
+}
+
+.service-item {
+  background-color:white ;
+  padding: 1rem;
+  border-radius: 10px;
+}
